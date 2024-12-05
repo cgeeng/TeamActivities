@@ -1,4 +1,4 @@
-# Module 10 Team Activity  - MVC: View
+# Module 09 Team Activity  - MVC: View
 
 In this activity, we will build off last weeks activity (with some changes) to setup a view for our MVC application. Instead of having a console view, we will create a GUI view using Java Swing.
 
