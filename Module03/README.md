@@ -30,6 +30,11 @@ They are:
 - Polymorphism
 - Abstraction
 
+> [!CAUTION]
+> Team activities should be 'capped' at two hours. If you hit the two hour mark and not done, 
+> that is 100% alright! This particular activity may be one of the ones that way, as different
+> teams work at different paces - so we have extra work at the end for the quicker teams. 
+
 ### 👉🏽 Discussion
 Take a moment to define each pilar as a team and discuss them. Define them in your notes. If the term is new to you, take time to look it up, and share what you find. We encourage you to put any resources you used in the notes.
 
@@ -212,7 +217,7 @@ Take time to explain the concepts to each other. What other questions come up as
 
 Let's practice! One of the more difficult but often best ways to learn design is by refracting (rewriting) code. This is often best if you practice with your own code, as you seek to improve it in the future. However, it is good (and sadly common in industry) for someone to have to refractor someone else's code. 
 
-With this team activity, there is a series of classes trying to represent a Menagerie of Animal Companions. The code is a bit of a mess, and it is up to you to refactor it. (You can find the code in the [src/main/java](src/main/java) folder). 
+With this team activity, there is a series of classes trying to represent a Menagerie of Animal Companions. The code is a bit of a mess, and it is up to you to refactor it. (You can find the code in the [src/](src/) folder). 
 
 > [!NOTE]
 > If you are opening this 'project' after downloading the git repository, you only want to open up the specific folder Module 03, not the whole repository. 
@@ -403,38 +408,34 @@ After discussing, add them to the UML diagram.
 > The default output is the class name and the memory address of the object,
 > which can be useful, not not as much as your custom output.
 
-### :fire: Task 1: Add Tests
+### Test Driven Development
 
-While for this Team Activity we do not expect full test coverage, you should always start out with tests before coding. This paradigm is known as Test Driven Development (TDD), and is a common practice in industry.
+For this class we will follow the paradigm of Test Driven Development (TDD), and is a common practice in industry.
 
 #### 👉🏽 Discussion 
-Take a look at the following [article on TDD](https://tidyfirst.substack.com/p/canon-tdd). To summarize the "unspoken background", people often 
+Discuss the following [article on TDD](https://tidyfirst.substack.com/p/canon-tdd). 
+
+To summarize the "unspoken background", people often 
 get stuck writing all the tests, before they even think of implementation. 
 That is often a great mistake. Instead, you should design (UML), then write a *SINGLE* test, then write the code to make that test pass. Then write another test, and repeat. Often, the first test is one that causes you to setup a lot of your objects, and then you can write the rest of the tests in a more incremental fashion.
 
 
-With this in mind, think of a simple test you could write for the Animal class. Add 'AnimalTest.java' to your project, and write the test.
+> [!TIP]
+> Often, a test may only pass a *single* aspect of a more complex method. For example, if you have a method method that needs to return an uppercase 
+> string or "EMPTY" if there isn't a string. You would
+> * Write a test for returning an upper case string
+> * Write the method to return an upper case string
+> * Write a test to return EMPTY is the string is empty
+> * **update/refactor** the method to handle both EMPTY and the upper case string - so both tests pass. 
 
-### :fire: Task 2: Refactor the Code
 
-Now, start the task of refactoring the code. You can use the UML diagram you created to help guide you.
 
-Once your first test for animal passes, start adding other tests and refactor as needed. Admittedly, it may make sense for you to start from scratch, and just write Animal, test, and continue to build from there. 
+### 👉🏽 Static Designs?
 
-> [!IMPORTANT]
-> Designs are NOT static!  As a developer, you will change the
-> design as you implement it. This is a good thing! It means you
-> are thinking about the problem, and how to solve it. 
-> A common mistake is 'but my UML says this, and this is 'all' 
-> I can use. No, you may have not thought of something at first, 
-> and often UML provided for you, does not include private methods,
-> which are often good to add. 
->
-> After you complete your program, you will often go back and clean
-> up your UML design to reflect what you actually did. As such,
-> it is often the start and end of the process. 
+Last but not least - designs are NOT static!  As a developer, you will change the design as you implement the code. This is a good thing! It means you are thinking about the problem, and how to solve it.   A common mistake is 'but my UML says this, and this is 'all'  I can use. No, you may have not thought of something at first,  and often UML provided for you, does not include private methods,
+which are often good to add. 
 
-You only need to make sure you pass the first first test! You can continue to refactor and add tests as you go, but for this team activity, our focus is on the design and process. If you want to finish the whole thing (and have time), that is great! However, make sure you save time for the rest of this activity.
+After you complete your homework assignments in this course, you will often go back and clean up your UML design to reflect what you actually did. As such, it is often the start and end of the process. 
 
 ## :fire: Java Practice Problem
 As part of **every** team activity, we will ask you to work on a Java Practice problem, and submit the code to the team files section (or as part of your notes). This is meant to give you practice similar to technical interviews, but also help build up your java skills. **Each team member needs to select a different problem!** But you can share/and should share answers and help each other. Remember, to learn a new language, the best thing you can do is practice! Here are some resources to find practice problems but you are not limited to them:
@@ -444,14 +445,11 @@ As part of **every** team activity, we will ask you to work on a Java Practice p
 * [Coding Bat - Java](https://codingbat.com/java)
 * [Hacker Rank - Java(Basic)](https://www.hackerrank.com/domains/java?filters%5Bskills%5D%5B%5D=Java%20%28Basic%29)
 
-
+Please share your solutions as `.java` files into the team meeting chat (it is easier than for us to give feedback).
 
 ## 👉🏽 Final Discussion  (Last 15 minutes)
 
-It is alright if you don't fully complete your coding side of this activity. We suggest that
-you complete it later on your own time. You are free to talk with your team mates and even share solutions! This isn't meant to be hidden. Groups often work at different paces, so don't feel you are behind if you didn't finish!
-
-However, before you end, take a moment to review **A** possible solution to the main activity (meaning your solution may be fine, and there are more than one solutions). You can find the solution in the [Solution](Solution) folder.
+Before you end, take a moment to review **A** possible solution to the main activity (meaning your solution may be fine, and there are more than one solutions). You can find the solution in the [Solution](Solution) folder.
 
 ### Factory??
 You will notice we created files with 'Factory' in the name. This is a design pattern you will come across in the future. It is a way to create objects without having to know the specific class of the object. This is often used when you have a class that is a parent of many classes, and you want to create a specific child class. It is also good for when you are unsure of 
