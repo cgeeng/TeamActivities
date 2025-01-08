@@ -3,7 +3,7 @@
 Welcome to your first weekly team activity. Team Activities are guided (tutorial like) study sessions with your team. They are designed to help you learn the material in a more interactive way. 
 
 ## Grading
-Grades for team activities will be based on attendance and notes. You must attend, and as a team you need to generate notes that we can confirm your work. Ideally, you upload the notes as a PDF to the team meeting after you build them out. 
+Grades for team activities will be based on attendance and notes. You must attend, and as a team you need to generate notes that we can confirm your work. You upload the notes as a PDF to the Canvas lab after you build them out. 
 
 > [!TIP] 
 > Good notes become a study guide for you and your team! Make sure they include everything you need to help better understand the weekly material. 
@@ -449,7 +449,7 @@ Please share your solutions as `.java` files into the team meeting chat (it is e
 
 ## 👉🏽 Final Discussion  (Last 15 minutes)
 
-Before you end, take a moment to review **A** possible solution to the main activity (meaning your solution may be fine, and there are more than one solutions). You can find the solution in the [Solution](Solution) folder.
+Before you end, take a moment to review **A** possible solution to the main activity (meaning your solution may be fine, and there are more than one solutions). You can find the solution in the [Solution](Solution) folder. Then submit your notes to Canvas lab assignment.
 
 ### Factory??
 You will notice we created files with 'Factory' in the name. This is a design pattern you will come across in the future. It is a way to create objects without having to know the specific class of the object. This is often used when you have a class that is a parent of many classes, and you want to create a specific child class. It is also good for when you are unsure of 
