@@ -1,6 +1,6 @@
 # Module 03 Team Activity - Object Oriented Programming (OOP)
 
-Welcome to your first weekly team activity. Team Activities are guided (tutorial like) study sessions with your team. They are designed to help you learn the material in a more interactive way. 
+Welcome to your first weekly team activity. Team Activities are guided (tutorial like) study sessions with your team. They are designed to help you learn the material in a more interactive way. TAs will be walking around to check-in and help out.
 
 ## Grading
 Grades for team activities will be based on attendance and notes. You must attend, and as a team you need to generate notes that we can confirm your work. You upload the notes as a PDF to the Canvas lab after you build them out. 
@@ -31,8 +31,8 @@ They are:
 - Abstraction
 
 > [!CAUTION]
-> Team activities should be 'capped' at two hours. If you hit the two hour mark and not done, 
-> that is 100% alright! This particular activity may be one of the ones that way, as different
+> If you hit the end of lab and are not done, that is 100% alright! 
+> Submit what you have. This particular activity may be one of the ones that way, as different
 > teams work at different paces - so we have extra work at the end for the quicker teams. 
 
 ### 👉🏽 Discussion
@@ -445,7 +445,6 @@ As part of **every** team activity, we will ask you to work on a Java Practice p
 * [Coding Bat - Java](https://codingbat.com/java)
 * [Hacker Rank - Java(Basic)](https://www.hackerrank.com/domains/java?filters%5Bskills%5D%5B%5D=Java%20%28Basic%29)
 
-Please share your solutions as `.java` files into the team meeting chat (it is easier than for us to give feedback).
 
 ## 👉🏽 Final Discussion  (Last 15 minutes)
 
