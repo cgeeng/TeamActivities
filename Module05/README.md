@@ -5,7 +5,7 @@ For this activity, we are going look at the purpose of .equal and .hashCode meth
 Additionally, to further your understanding of Java, we will cover in more detail on how to read and write files. 
 
 ## Grading
-Grades for team activities will be based on attendance and notes. You must attend, and as a team you need to generate notes that we can confirm your work. Ideally, you upload the notes as a PDF to the team meeting after you build them out. 
+Grades for team activities will be based on attendance and notes. You must attend, and as a team you need to generate notes that we can confirm your work. Upload your notes as a PDF to the appropriate Lab assignment.
 
 > [!TIP] 
 > Good notes become a study guide for you and your team! Make sure they include everything you need to help better understand the weekly material. 
